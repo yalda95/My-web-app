@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'vazir';
+    src: url(../font/Vazir-FD.woff);
+}
+body{
+    margin:0;
+    font-family: 'vazir';
+}
+.main-header{
+    width: 100%;
+    background-color: #b103fc;
+    padding: 8px 16px;
+}
+.logo{
+    color:white;
+    text-decoration: none;
+    font:22px;
+    vertical-align: middle;
+}
+.main-nav-item{
+    display: inline-block;
+    margin: 8px 16px;
+    
+}
+.main-nav-items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 70px);
+    vertical-align: middle;
+}
+.main-header > div{
+    display: inline-block;
+}
+.main-nav-item a{
+    color: white;
+    text-decoration: none;
+}
+.main-nav-item a:hover,
+.main-nav-item a:active
+{
+    color:#f7ff0d;
+    
+}
+.main-nav-item-account{
+    background-color: #eac7fc;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
