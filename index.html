@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
-    
+
     <head>
         <title>Main-Page</title>
         <link rel="stylesheet" href="./style/main.css">
         <link rel="stylesheet" href="./style/shared.css">
+
     </head>
+
+
     <body>
+        <div class="backdrop"></div>
+        <div class="modal">
+            <h1 class="modal-title">عنوان</h1>
+            <div class="modal-actions">
+                <a href="#" class="modal-action">ثبت سفارش</a>
+                <button class="modal-action modal-action-negetive">انصراف</button>
+            </div>
+        </div>
         <header class="main-header">
             <div>
                 <a class="logo" href="#">
@@ -22,7 +33,7 @@
                         <a href="./pages/plans/index.html">تعرفه</a>
                     </li>
                     <li class="main-nav-item">
-                        <a href="#">تماس</a>
+                        <a href="./pages/customers/index.html">مشتریان</a>
                     </li>
                 </ul>
 
@@ -110,7 +121,7 @@
             <section id="free-space">
 
             </section>
-            
+
 
         </main>
 
@@ -125,13 +136,15 @@
                     </li>
                     <li  class="main-footer-link">
                         <a href="#">
-                           تعرفه ها 
+                           تعرفه ها
                         </a>
                     </li>
                 </ul>
             </nav>
         </footer>
-        
+    <script src="./scripts/shared.js"></script>
+
     </body>
+    
 
 </html>
